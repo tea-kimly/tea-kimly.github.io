@@ -363,10 +363,13 @@ header.masthead p {
  }
 
  @media (min-width: 992px) {
-    #services, #plus, #support, #contact {
-        height:100vh;
-        min-height: 650px;
-        padding-top: 0;
-        padding-bottom: 0
+    #services, #plus, #support {
+        min-height: 780px;
     }
+}
+
+#support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
